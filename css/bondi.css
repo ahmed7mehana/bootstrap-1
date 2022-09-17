@@ -1,0 +1,48 @@
+body{font-family: 'Overpass', sans-serif;}
+*{box-sizing:border-box;}
+.navbar{background-color:hsl(13, 100%, 72%);}
+.landing{
+background-color:hsl(13, 100%, 72%);
+border-radius: 0px 0px 0px 87px;
+height:400px;
+max-height:450px;
+overflow: hidden;}
+img{
+  top: -257px;
+  width: 110%;
+  height: 100%;
+  z-index: 2;
+}
+.mainbtn{
+  background-color:  hsl(0, 0%, 100%);
+  color:  hsl(356, 100%, 66%);
+  transition: all 0.2s;
+}
+.mainbtn:hover{background-color: hsl(355, 100%, 74%);}
+
+.secbtn{
+  color:hsl(0, 0%, 100%) ;
+  border-color: aliceblue;
+}
+.secbtn:hover{
+  background-color:hsl(0, 0%, 100%);
+color:hsl(13, 100%, 72%);
+}
+.image img{width: 100%;}
+.phon .row{height:300px ;}
+.phon{
+background-color: hsl(237, 17%, 21%);
+border-radius: 0px 95px 0 100px;}
+.image .phonimg{
+  position: relative;
+      top: -116px;
+    width: 100%;}
+.lab{
+  margin-top: 10rem;
+margin-bottom: 5rem;}
+.logo{width: 200px;}
+.footer{ border-radius: 0px 80px 0 0;}
+@media(max-width:900px) {
+  .phon .row{height:fit-content;}
+  .textphon{margin-top: -100px;}}
+ul li{cursor: pointer;}
